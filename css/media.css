@@ -1,0 +1,245 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+.
+
+.navbar_search {
+	width: 100% !important;
+}
+
+.cbp-search {
+	width: 100% !important;
+}
+
+#js-search-blog-posts {
+	width: 100% !important;
+	max-width: none !important;
+}
+
+input.cbp-search-input {
+	background-position: 98% 0;
+}
+
+
+
+
+	ul.navbar_ul {
+		margin-left: 0
+	}
+
+	.logotype,
+	.box_onas p {
+		margin-bottom: 25px
+	}
+
+	.menu-footer a {
+	    margin: 1%;
+	    text-transform: uppercase;
+	    padding: 8px 10px;
+	    font-weight: bold;
+	    font-size: 13px;
+	}
+
+	.menu-footer a:hover {
+	    background: rgb(254,110,14);
+	    border-radius: 2px;
+	    padding: 8px 10px;
+	    color: #fff;
+	    -webkit-box-shadow: 0px 0px 55px 0px rgba(254,110,14,0.7);
+	    -moz-box-shadow: 0px 0px 55px 0px rgba(254,110,14,0.7);
+	    box-shadow: 0px 0px 55px 0px rgba(254,110,14,0.7);
+	}
+
+	.support_img {
+		display: none;
+	}
+
+.ulightbox .img-radius {
+	margin: 5px!important;
+}
+
+	.bg-gray {
+	    padding: 8px;
+	    position: relative;
+	    display: table;
+	    width: 100%;
+	}
+
+#garant .step_block {
+	width: 100%;
+}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+/*.support_img {
+	min-height: 0 !important;
+}*/
+
+.header_bg, 
+.navbar_search,
+.navbar_menu,
+.soc_buttons,
+.block_category {
+	display: none !important
+}
+
+nav.container.navbar {
+	background: #000000 !important;
+	top: 0;
+	border-top: none !important
+}
+
+.content_wrapper .container {
+	background: #000000
+}
+
+.menu-footer {
+	display: none
+}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	.logotype {
+		width: 100%;
+		height: 100%;
+		line-height: 100%
+	}
+
+	.title_shop_window {
+		display: none
+	}
+
+	.tw {
+	    display: inline-block;
+	    background-color: #fe6e0e;
+	    padding: 0 5px;
+	    line-height: 25px;
+	    height: 35p;
+	    text-align: middle;
+	    vertical-align: top;
+	    color: white;
+	    font-size: 12px;
+	}
+
+	a.buy_btn {
+	    margin: 25px auto;
+	    display: block;
+	    background: #fe6e0e;
+	    text-shadow: 2px 2px 0px rgba(255,18,14,0.75);
+	    border-bottom: 5px solid #da5801;
+	    -webkit-box-shadow: 0px 0px 55px 0px rgba(254,110,14,0.7);
+	    -moz-box-shadow: 0px 0px 55px 0px rgba(254,110,14,0.7);
+	    box-shadow: 0px 0px 55px 0px rgba(254,110,14,0.7);
+	    color: #fff;
+	    padding: 20px 25px;
+	    text-align: center;
+	    text-transform: uppercase;
+	    border-radius: 5px;
+	    font-size: 25px;
+	    font-weight: 700;
+	    width: 100%;
+	    max-width: 250px;
+	}
+
+	.cena-item {
+		font-size: 50px;
+	}
+
+	ul.info-list-preview {
+		font-size: 16px;
+	}
+
+	.row.margin25.bg-gray.img-radius,
+	.alert.alert-warning.bg-gray {
+		margin-bottom: 25px;
+	}
+
+	h3.title {
+		font-size: 16px;
+	}
+
+	.dot-title {
+		top: 6px;
+	}
+
+	div.shop_post div.buy_product_btn {
+	    	top: 62%;
+    		left: 55%;
+	}
+
+	div.shop_post:hover div.buy_product_btn {
+		width: 60px;
+		padding: 12px 12px;
+	    	font-size: 10px;
+	}
+
+	#garant .step_block {
+		height: auto;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+	ul.navbar_ul li,
+	ul.soc_btns_ul li {
+	    float: left;
+	}
+
+	ul.navbar_ul li a,
+	ul.soc_btns_ul li a {
+	    padding-top: 15px;
+	    padding-bottom: 15px;
+	}
+
+	.navbar-toggle {
+		display: none
+	}
+
+	.mm_footer_menu {
+		display: none
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
